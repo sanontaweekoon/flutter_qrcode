@@ -17,3 +17,4 @@ samples, guidance on mobile development, and a full API reference.
 "# flutter_qrcode" 
 # flutter_qrcode
 # flutter_qrcode
+# flutter_qrcode
