@@ -1,4 +1,4 @@
-#Sat Oct 17 15:48:48 ICT 2020
+#Sat Oct 17 18:38:26 ICT 2020
 base.0=C\:\\Users\\66623\\Desktop\\my_qrcode\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

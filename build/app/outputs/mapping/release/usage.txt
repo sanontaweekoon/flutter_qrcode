@@ -613,8 +613,8 @@ com.google.common.graph.EndpointPair$1
 androidx.vectordrawable.R$dimen
 androidx.annotation.RawRes
 kotlin.OverloadResolutionByLambdaReturnType
-androidx.fragment.R$dimen
 io.flutter.plugins.pathprovider.R$color
+androidx.fragment.R$dimen
 androidx.core.util.Consumer
 androidx.lifecycle.Lifecycling:
     static androidx.lifecycle.GenericLifecycleObserver getCallback(java.lang.Object)

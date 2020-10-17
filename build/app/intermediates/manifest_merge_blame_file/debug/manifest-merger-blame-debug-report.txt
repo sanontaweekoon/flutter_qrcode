@@ -81,7 +81,7 @@
 56-->C:\Users\66623\Desktop\my_qrcode\android\app\src\main\AndroidManifest.xml:37:9-45:20
 57            android:name="androidx.core.content.FileProvider"
 57-->C:\Users\66623\Desktop\my_qrcode\android\app\src\main\AndroidManifest.xml:38:13-62
-58            android:authorities="cm.qrcode.share"
+58            android:authorities="th.qrcode/share"
 58-->C:\Users\66623\Desktop\my_qrcode\android\app\src\main\AndroidManifest.xml:39:13-50
 59            android:exported="false"
 59-->C:\Users\66623\Desktop\my_qrcode\android\app\src\main\AndroidManifest.xml:40:13-37

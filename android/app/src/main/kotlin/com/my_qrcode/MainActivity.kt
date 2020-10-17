@@ -14,7 +14,7 @@ class MainActivity: FlutterActivity() {
     super.onCreate(savedInstanceState)
     GeneratedPluginRegistrant.registerWith(this)
 
-    MethodChannel(flutterView, "cm.share/share").setMethodCallHandler{
+    MethodChannel(flutterView, "th.share/share").setMethodCallHandler{
       methodCall, result ->
       if(methodCall.method == "shareFile"){
         shareFile(methodCall.arguments as String)
@@ -25,7 +25,7 @@ class MainActivity: FlutterActivity() {
   // add
   private fun shareFile(path: String) {
     val imageFile = File(cacheDir, path)
-    val contentUri = FileProvider.getUriForFile(this, "th.qrcode.share", imageFile)
+    val contentUri = FileProvider.getUriForFile(this, "th.qrcode/share", imageFile)
     // cm.qrcode.share (ref. AndroidManifest.xml)
 
     Intent(Intent.ACTION_SEND).let {

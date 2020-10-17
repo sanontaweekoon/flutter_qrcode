@@ -1042,7 +1042,6 @@ Referenced Strings:
   clipboard
   closeIconEnabled
   closeIconVisible
-  cm.share/share
   code128
   code39
   code93
@@ -1465,7 +1464,8 @@ Referenced Strings:
   text/plain
   textCapitalization
   textScaleFactor
-  th.qrcode.share
+  th.qrcode/share
+  th.share/share
   this.config.restrictFormatList
   tileMode
   timeout

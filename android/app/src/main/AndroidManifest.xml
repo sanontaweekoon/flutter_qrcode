@@ -36,7 +36,7 @@
         <!-- add -->
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="cm.qrcode.share"
+            android:authorities="th.qrcode/share"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data

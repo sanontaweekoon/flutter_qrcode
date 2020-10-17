@@ -10,6 +10,7 @@ import 'package:my_qrcode/generate_qrcode_page.dart';
 
 void main() => runApp(MyApp());
 
+
 class MyApp extends StatelessWidget {
   final title = "QR Code";
 
@@ -42,11 +43,9 @@ class MyHomePage extends StatelessWidget {
           Padding(
             child: Image.asset(
               'assets/logo.png',
-              width: 500,
-              height: 250,
               alignment: AlignmentDirectional.topCenter,
             ),
-            padding: EdgeInsets.all(10),
+            padding: EdgeInsets.all(30),
           ),
           Center(
             child: Padding(
@@ -55,7 +54,7 @@ class MyHomePage extends StatelessWidget {
                 children: <Widget>[
                   _buildScan(context: context),
                   SizedBox(
-                    width: 20,
+                    width: 30,
                   ),
                   _buildGenerator(context: context),
                 ],
@@ -85,9 +84,9 @@ class MyHomePage extends StatelessWidget {
               color: Colors.tealAccent[700],
               textColor: Colors.white,
               child: Text("SCAN"),
-              onPressed: (){
+              onPressed: () {
                 scanQRCode(context: context);
-              } ,
+              },
             )
           ],
         ),
