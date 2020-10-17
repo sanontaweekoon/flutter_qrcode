@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "C:\\Users\\66623\\Desktop\\my_qrcode\\build\\barcode_scan\\intermediates\\res\\merged\\release\\drawable-v21\\abc_list_divider_material.xml",
+        "source": "C:\\Users\\66623\\.gradle\\caches\\transforms-2\\files-2.1\\db6b3cb3556c3a7381391db4d7ac82c7\\appcompat-1.1.0\\res\\drawable-v21\\abc_list_divider_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\66623\\Desktop\\my_qrcode\\build\\barcode_scan\\intermediates\\res\\merged\\release\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "C:\\Users\\66623\\.gradle\\caches\\transforms-2\\files-2.1\\db6b3cb3556c3a7381391db4d7ac82c7\\appcompat-1.1.0\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\66623\\Desktop\\my_qrcode\\build\\barcode_scan\\intermediates\\res\\merged\\release\\drawable-v21\\avd_hide_password.xml",
+        "source": "C:\\Users\\66623\\.gradle\\caches\\transforms-2\\files-2.1\\b6d28edb9fe4ee89885b08098b751d6b\\material-1.1.0\\res\\drawable-v21\\avd_hide_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\66623\\Desktop\\my_qrcode\\build\\barcode_scan\\intermediates\\res\\merged\\release\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\66623\\.gradle\\caches\\transforms-2\\files-2.1\\db6b3cb3556c3a7381391db4d7ac82c7\\appcompat-1.1.0\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\66623\\Desktop\\my_qrcode\\build\\barcode_scan\\intermediates\\res\\merged\\release\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\66623\\.gradle\\caches\\transforms-2\\files-2.1\\db6b3cb3556c3a7381391db4d7ac82c7\\appcompat-1.1.0\\res\\drawable-v21\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\66623\\Desktop\\my_qrcode\\build\\barcode_scan\\intermediates\\res\\merged\\release\\drawable-v21\\design_password_eye.xml",
+        "source": "C:\\Users\\66623\\.gradle\\caches\\transforms-2\\files-2.1\\b6d28edb9fe4ee89885b08098b751d6b\\material-1.1.0\\res\\drawable-v21\\design_password_eye.xml"
+    },
+    {
+        "merged": "C:\\Users\\66623\\Desktop\\my_qrcode\\build\\barcode_scan\\intermediates\\res\\merged\\release\\drawable-v21\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\66623\\.gradle\\caches\\transforms-2\\files-2.1\\db6b3cb3556c3a7381391db4d7ac82c7\\appcompat-1.1.0\\res\\drawable-v21\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\66623\\Desktop\\my_qrcode\\build\\barcode_scan\\intermediates\\res\\merged\\release\\drawable-v21\\design_bottom_navigation_item_background.xml",
+        "source": "C:\\Users\\66623\\.gradle\\caches\\transforms-2\\files-2.1\\b6d28edb9fe4ee89885b08098b751d6b\\material-1.1.0\\res\\drawable-v21\\design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\66623\\Desktop\\my_qrcode\\build\\barcode_scan\\intermediates\\res\\merged\\release\\drawable-v21\\avd_show_password.xml",
+        "source": "C:\\Users\\66623\\.gradle\\caches\\transforms-2\\files-2.1\\b6d28edb9fe4ee89885b08098b751d6b\\material-1.1.0\\res\\drawable-v21\\avd_show_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\66623\\Desktop\\my_qrcode\\build\\barcode_scan\\intermediates\\res\\merged\\release\\drawable-v21\\notification_action_background.xml",
+        "source": "C:\\Users\\66623\\.gradle\\caches\\transforms-2\\files-2.1\\3b97c885f594ab977df8f4c1b4f312a0\\core-1.1.0\\res\\drawable-v21\\notification_action_background.xml"
+    }
+]

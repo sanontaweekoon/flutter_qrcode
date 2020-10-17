@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\66623\\Desktop\\my_qrcode\\build\\barcode_scan\\intermediates\\res\\merged\\release\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\66623\\.gradle\\caches\\transforms-2\\files-2.1\\759319efa7ac75cf562b8c3e23538452\\core-1.1.0\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "C:\\Users\\66623\\Desktop\\my_qrcode\\build\\barcode_scan\\intermediates\\res\\merged\\release\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\66623\\.gradle\\caches\\transforms-2\\files-2.1\\759319efa7ac75cf562b8c3e23538452\\core-1.1.0\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\66623\\Desktop\\my_qrcode\\build\\barcode_scan\\intermediates\\res\\merged\\release\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\66623\\.gradle\\caches\\transforms-2\\files-2.1\\759319efa7ac75cf562b8c3e23538452\\core-1.1.0\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\66623\\Desktop\\my_qrcode\\build\\barcode_scan\\intermediates\\res\\merged\\release\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\66623\\.gradle\\caches\\transforms-2\\files-2.1\\759319efa7ac75cf562b8c3e23538452\\core-1.1.0\\res\\layout-v21\\notification_action_tombstone.xml"
+    }
+]

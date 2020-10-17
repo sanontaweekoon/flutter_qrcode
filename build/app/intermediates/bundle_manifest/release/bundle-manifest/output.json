@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "applicationId": "com.codemobiles.my_qrcode",
+  "variantType": "BASE_APK",
+  "elements": [
+    {
+      "outputType": {
+        "type": "BUNDLE_MANIFEST"
+      },
+      "apkData": {
+        "type": "MAIN",
+        "splits": [],
+        "versionCode": 1,
+        "versionName": "1.0.0",
+        "outputFile": "app-release.apk",
+        "fullName": "release",
+        "baseName": "release",
+        "dirName": ""
+      },
+      "path": "AndroidManifest.xml",
+      "properties": {
+        "packageId": "com.codemobiles.my_qrcode",
+        "split": "",
+        "minSdkVersion": "18"
+      }
+    }
+  ]
+}

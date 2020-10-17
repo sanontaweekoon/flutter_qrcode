@@ -1,0 +1,103 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.codemobiles.my_qrcode"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="18"
+9        android:targetSdkVersion="30" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\66623\Desktop\my_qrcode\android\app\src\debug\AndroidManifest.xml:6:5-66
+14-->C:\Users\66623\Desktop\my_qrcode\android\app\src\debug\AndroidManifest.xml:6:22-64
+15    <!--
+16     io.flutter.app.FlutterApplication is an android.app.Application that
+17         calls FlutterMain.startInitialization(this); in its onCreate method.
+18         In most cases you can leave this as-is, but you if you want to provide
+19         additional functionality it is fine to subclass or reimplement
+20         FlutterApplication and put your custom class here.
+21    -->
+22    <uses-permission android:name="android.permission.CAMERA" />
+22-->C:\Users\66623\Desktop\my_qrcode\android\app\src\main\AndroidManifest.xml:10:5-65
+22-->C:\Users\66623\Desktop\my_qrcode\android\app\src\main\AndroidManifest.xml:10:22-62
+23
+24    <application
+24-->C:\Users\66623\Desktop\my_qrcode\android\app\src\main\AndroidManifest.xml:12:5-47:19
+25        android:name="io.flutter.app.FlutterApplication"
+25-->C:\Users\66623\Desktop\my_qrcode\android\app\src\main\AndroidManifest.xml:13:9-57
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.1.0] C:\Users\66623\.gradle\caches\transforms-2\files-2.1\759319efa7ac75cf562b8c3e23538452\core-1.1.0\AndroidManifest.xml:24:18-86
+27        android:debuggable="true"
+28        android:icon="@mipmap/ic_launcher"
+28-->C:\Users\66623\Desktop\my_qrcode\android\app\src\main\AndroidManifest.xml:15:9-43
+29        android:label="my_qrcode" >
+29-->C:\Users\66623\Desktop\my_qrcode\android\app\src\main\AndroidManifest.xml:14:9-34
+30        <activity
+30-->C:\Users\66623\Desktop\my_qrcode\android\app\src\main\AndroidManifest.xml:16:9-34:20
+31            android:name="com.codemobiles.my_qrcode.MainActivity"
+31-->C:\Users\66623\Desktop\my_qrcode\android\app\src\main\AndroidManifest.xml:17:13-41
+32            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+32-->C:\Users\66623\Desktop\my_qrcode\android\app\src\main\AndroidManifest.xml:20:13-144
+33            android:hardwareAccelerated="true"
+33-->C:\Users\66623\Desktop\my_qrcode\android\app\src\main\AndroidManifest.xml:21:13-47
+34            android:launchMode="singleTop"
+34-->C:\Users\66623\Desktop\my_qrcode\android\app\src\main\AndroidManifest.xml:18:13-43
+35            android:theme="@style/LaunchTheme"
+35-->C:\Users\66623\Desktop\my_qrcode\android\app\src\main\AndroidManifest.xml:19:13-47
+36            android:windowSoftInputMode="adjustResize" >
+36-->C:\Users\66623\Desktop\my_qrcode\android\app\src\main\AndroidManifest.xml:22:13-55
+37
+38            <!--
+39                 This keeps the window background of the activity showing
+40                 until Flutter renders its first frame. It can be removed if
+41                 there is no splash screen (such as the default splash screen
+42                 defined in @style/LaunchTheme).
+43            -->
+44            <meta-data
+44-->C:\Users\66623\Desktop\my_qrcode\android\app\src\main\AndroidManifest.xml:27:13-29:40
+45                android:name="io.flutter.app.android.SplashScreenUntilFirstFrame"
+45-->C:\Users\66623\Desktop\my_qrcode\android\app\src\main\AndroidManifest.xml:28:17-82
+46                android:value="true" />
+46-->C:\Users\66623\Desktop\my_qrcode\android\app\src\main\AndroidManifest.xml:29:17-37
+47
+48            <intent-filter>
+48-->C:\Users\66623\Desktop\my_qrcode\android\app\src\main\AndroidManifest.xml:30:13-33:29
+49                <action android:name="android.intent.action.MAIN" />
+49-->C:\Users\66623\Desktop\my_qrcode\android\app\src\main\AndroidManifest.xml:31:17-68
+49-->C:\Users\66623\Desktop\my_qrcode\android\app\src\main\AndroidManifest.xml:31:25-66
+50
+51                <category android:name="android.intent.category.LAUNCHER" />
+51-->C:\Users\66623\Desktop\my_qrcode\android\app\src\main\AndroidManifest.xml:32:17-76
+51-->C:\Users\66623\Desktop\my_qrcode\android\app\src\main\AndroidManifest.xml:32:27-74
+52            </intent-filter>
+53        </activity>
+54
+55        <!-- add -->
+56        <provider
+56-->C:\Users\66623\Desktop\my_qrcode\android\app\src\main\AndroidManifest.xml:37:9-45:20
+57            android:name="androidx.core.content.FileProvider"
+57-->C:\Users\66623\Desktop\my_qrcode\android\app\src\main\AndroidManifest.xml:38:13-62
+58            android:authorities="cm.qrcode.share"
+58-->C:\Users\66623\Desktop\my_qrcode\android\app\src\main\AndroidManifest.xml:39:13-50
+59            android:exported="false"
+59-->C:\Users\66623\Desktop\my_qrcode\android\app\src\main\AndroidManifest.xml:40:13-37
+60            android:grantUriPermissions="true" >
+60-->C:\Users\66623\Desktop\my_qrcode\android\app\src\main\AndroidManifest.xml:41:13-47
+61            <meta-data
+61-->C:\Users\66623\Desktop\my_qrcode\android\app\src\main\AndroidManifest.xml:42:13-44:54
+62                android:name="android.support.FILE_PROVIDER_PATHS"
+62-->C:\Users\66623\Desktop\my_qrcode\android\app\src\main\AndroidManifest.xml:43:17-67
+63                android:resource="@xml/file_paths" />
+63-->C:\Users\66623\Desktop\my_qrcode\android\app\src\main\AndroidManifest.xml:44:17-51
+64        </provider>
+65
+66        <activity android:name="de.mintware.barcode_scan.BarcodeScannerActivity" />
+66-->[:barcode_scan] C:\Users\66623\Desktop\my_qrcode\build\barcode_scan\intermediates\library_manifest\debug\AndroidManifest.xml:10:9-84
+66-->[:barcode_scan] C:\Users\66623\Desktop\my_qrcode\build\barcode_scan\intermediates\library_manifest\debug\AndroidManifest.xml:10:19-81
+67    </application>
+68
+69</manifest>
